@@ -1,0 +1,4 @@
+See file:///C:/Users/jb/AndroidStudioProjects/MyApplication2/app/build/tmp/linkAppArmeabiDebugSharedLibrary/output.txt for all output for linkAppArmeabiDebugSharedLibrary.
+linking libapp.so successful.
+
+Finished linkAppArmeabiDebugSharedLibrary, see full log file:///C:/Users/jb/AndroidStudioProjects/MyApplication2/app/build/tmp/linkAppArmeabiDebugSharedLibrary/output.txt.

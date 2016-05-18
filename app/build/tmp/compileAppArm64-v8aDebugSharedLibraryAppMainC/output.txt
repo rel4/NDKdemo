@@ -1,0 +1,8 @@
+See file:///C:/Users/jb/AndroidStudioProjects/MyApplication2/app/build/tmp/compileAppArm64-v8aDebugSharedLibraryAppMainC/output.txt for all output for compileAppArm64-v8aDebugSharedLibraryAppMainC.
+compiling app.c successful.
+C:\Users\jb\AndroidStudioProjects\MyApplication2\app\src\main\jni\app.c: In function 'Java_com_jnitest_com_myapplication_MainActivity_getInt':
+C:\Users\jb\AndroidStudioProjects\MyApplication2\app\src\main\jni\app.c:10:5: warning: return makes pointer from integer without a cast
+     return a;
+     ^
+
+Finished compileAppArm64-v8aDebugSharedLibraryAppMainC, see full log file:///C:/Users/jb/AndroidStudioProjects/MyApplication2/app/build/tmp/compileAppArm64-v8aDebugSharedLibraryAppMainC/output.txt.

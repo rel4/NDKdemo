@@ -1,0 +1,12 @@
+-shared
+-Wl,-soname,libapp.so
+-o
+C:\\Users\\jb\\AndroidStudioProjects\\MyApplication2\\app\\build\\intermediates\\binaries\\debug\\obj\\armeabi-v7a\\libapp.so
+C:\\Users\\jb\\AndroidStudioProjects\\MyApplication2\\app\\build\\intermediates\\objectFiles\\armeabi-v7aDebugSharedLibrary\\appMainC\\ukpuuhyby4aobn06tv6sije4\\app.o
+-Wl,--no-undefined
+-Wl,-z,noexecstack
+-Wl,-z,relro
+-Wl,-z,now
+--sysroot=C:\\Users\\jb\\AppData\\Local\\Android\\Sdk\\ndk-bundle/platforms/android-23/arch-arm
+-Wl,--build-id
+-no-canonical-prefixes

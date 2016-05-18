@@ -1,0 +1,59 @@
+apply plugin: 'com.android.model.application'
+
+model {
+
+    android {
+
+        compileSdkVersion = 23
+
+        buildToolsVersion = "23.0.2"
+
+        defaultConfig {
+
+            minSdkVersion.apiLevel 15
+
+            targetSdkVersion.apiLevel 23
+
+            versionCode 4
+
+            versionName "1.0.1"
+
+        }
+
+    }
+    android.ndk {
+        moduleName "app"
+
+    }
+    android.buildTypes {
+        release {
+            minifyEnabled = false
+            proguardFiles.add(file("proguard-rules.txt"))
+        }
+    }
+
+
+}
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    /*compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support:recyclerview-v7:23.1.1'
+    compile 'com.android.support:design:23.1.1'*/
+
+    testCompile 'junit:junit:4.12'
+}
+//    首先在apply的时候我们引入的插件名称由'com.android.application'变成了'com.android.model.application'。
+//
+//    其次，在原来android的外层加入了一个model层次。
+//
+//    再次，原来在android的里面的块，除了defaultConfig外，全部移除android块放入model块中与android并列，并且前面的名字加上android.。
+//
+//    然后，compileSdkVersion 23与 buildToolsVersion "23.0.2"改成 compileSdkVersion = 23和buildToolsVersion = "23.0.2"，中间加上了=。
+//
+//    其次，添加上android.ndk块，块中的moduleName表示C/C++代码打包成so文件的名字。
+//
+//    再次，android.buildTypes块中的proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'改成proguardFiles.add(file("proguard-rules.txt"))。
+//
+//    最后，注意dependencies块依然在最外层，它不在model块中。
+//
+//

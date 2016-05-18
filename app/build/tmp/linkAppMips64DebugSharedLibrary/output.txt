@@ -1,0 +1,4 @@
+See file:///C:/Users/jb/AndroidStudioProjects/MyApplication2/app/build/tmp/linkAppMips64DebugSharedLibrary/output.txt for all output for linkAppMips64DebugSharedLibrary.
+linking libapp.so successful.
+
+Finished linkAppMips64DebugSharedLibrary, see full log file:///C:/Users/jb/AndroidStudioProjects/MyApplication2/app/build/tmp/linkAppMips64DebugSharedLibrary/output.txt.

@@ -1,0 +1,4 @@
+See file:///C:/Users/jb/AndroidStudioProjects/MyApplication2/app/build/tmp/linkAppArm64-v8aDebugSharedLibrary/output.txt for all output for linkAppArm64-v8aDebugSharedLibrary.
+linking libapp.so successful.
+
+Finished linkAppArm64-v8aDebugSharedLibrary, see full log file:///C:/Users/jb/AndroidStudioProjects/MyApplication2/app/build/tmp/linkAppArm64-v8aDebugSharedLibrary/output.txt.
